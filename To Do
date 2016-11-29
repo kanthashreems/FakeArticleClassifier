@@ -1,7 +1,15 @@
 To Do Nov 28:
 
-Video 2 [Shrimai]:
+[Shrimai]:
 1. Perplexity for 3-gram, 4-gram are good
 2. Features like verb present or not etc did not help
 3. People got good accuracy with long sentences and did not perform well with short ones.
 4. Classifiers used: SVM, Logistic Regression
+
+[Kanthashree]:
+1. Skip Gram model
+2. Topic Models - entropy
+3. Parser Features
+4. POS bag of words
+5. NER (did not work very well)
+
