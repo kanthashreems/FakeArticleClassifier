@@ -4,11 +4,24 @@
 # In[1]:
 
 import numpy as np
+import time
 
 
 # In[19]:
 
 #filename = "data/trainingSet.dat"
+TRAIN = "../Data/trainingSet.dat"
+TRAIN_LABELS = "../Data/trainingSetLabels.dat"
+
+def tic():
+    global startTime_for_tictoc
+    startTime_for_tictoc = time.time()
+
+def toc(s=None):
+    if 'startTime_for_tictoc' in globals():
+        print s+":Elapsed time is " + str(time.time() - startTime_for_tictoc) + " seconds."
+    else:
+        print "Toc: start time not set"
 
 def get_articles(filename):
     with open(filename, "r") as inp:
@@ -27,6 +40,22 @@ def get_articles(filename):
     articles = articles[1:] 
     return articles
 
+def get_articles_list(fname):
+    with open(fname, 'r') as f:
+        d = f.read()
+
+    articles = d.split("\n~~~~~ \n") 
+    articles_sents = [a.split("\n") for a in articles]
+    return articles_sents
+
+def load(fname):
+    with open(fname, 'r') as f:
+        d = f.read()
+    return d
+
+def write(fname, s):
+    with open(fname, 'w') as f:
+        f.write(s)
 
 # In[21]:
 
@@ -69,6 +98,15 @@ def split_articles(articles, labels):
         else:
             neg_article.append(articles[i])
     return pos_article, neg_article
+
+
+if __name__ == "__main__":
+    tic()
+    a1 = get_articles(TRAIN)
+    toc("F1")
+    tic()
+    a = get_articles_list(TRAIN)
+    toc("F2")
 
 
 # In[31]:
