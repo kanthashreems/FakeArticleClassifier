@@ -6,8 +6,8 @@ import utils
 TRAIN_TRUE = "../Data/trainingSetLabels.dat"
 DEV_TRUE = "../Data/developmentSetLabels.dat"
 
-train_true = np.array(get_labels(TRAIN_TRUE))
-dev_true = np.array(get_labels(DEV_TRUE))
+train_true = np.array(utils.get_labels(TRAIN_TRUE))
+dev_true = np.array(utils.get_labels(DEV_TRUE))
 
 def classification_error(y_pred, dev=0):
 	if dev:
@@ -38,20 +38,20 @@ def calculate_soft_score(y_true, y0_prob,y1_prob,script=0):
 
 def get_probabilities(pred_file):
 	with open(pred_file, "r") as inp:
-        labels = inp.read()
-    labels = labels.split("\n")
-    y0_prob = []
-    y1_prob = []
-    y_pred = []
-    for label in labels:
-    	y0,y1,y = label.split()
-    	y0_prob.append(y0)
-    	y1_prob.append(y1)
-    	y_pred.append(y)
-    y0_prob = map(float, y0_prob)
-    y1_prob = map(float, y1_prob)
-    y_pred = map(float, y_pred)
-    return y0_prob, y1_prob, y_pred
+		labels = inp.read()
+	labels = labels.split("\n")
+	y0_prob = []
+	y1_prob = []
+	y_pred = []
+	for label in labels:
+		y0,y1,y = label.split()
+		y0_prob.append(y0)
+		y1_prob.append(y1)
+		y_pred.append(y)
+	y0_prob = map(float, y0_prob)
+	y1_prob = map(float, y1_prob)
+	y_pred = map(float, y_pred)
+	return y0_prob, y1_prob, y_pred
 
 if __name__ == "__main__":
 	true_file = sys.argv[1]

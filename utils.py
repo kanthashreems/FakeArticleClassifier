@@ -13,6 +13,9 @@ import time
 TRAIN = "../Data/trainingSet.dat"
 TRAIN_LABELS = "../Data/trainingSetLabels.dat"
 
+DEV = "../Data/developmentSet.dat"
+DEV_LABELS = "../Data/developmentSetLabels.dat"
+
 def tic():
     global startTime_for_tictoc
     startTime_for_tictoc = time.time()
