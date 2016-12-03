@@ -110,7 +110,9 @@ dev_articles = get_articles(DEV)
 dev_labels = get_labels(DEV_LABELS)
 # dev_features = get_perplexity_features(dev_articles)
 dev_features = np.loadtxt("Features/dev_perplexity_f.txt")
-dev_features = scalar.transform(dev_features)
+# dev_features = scalar.transform(dev_features)
+train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/dev_perp_wit_out"))[:,0]
+train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/dev_perp_wit_out"))[:,0]
 
 X = train_features
 n1 = 0
