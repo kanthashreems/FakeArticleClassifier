@@ -102,17 +102,17 @@ train_features = np.loadtxt("Features/train_perplexity_f.txt")
 np.savetxt("train_perplexity_f.txt", train_features)
 scalar = StandardScaler()
 train_features = scalar.fit_transform(train_features)
-train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/perp_wit_out"))[:,0]
-train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/perp_wit_out"))[:,0]
-train_features = np.c_[train_features_perplexity3, train_features_perplexity4]
+train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/perp_wit_out"))[:,0]
+train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/perp_wit_out"))[:,0]
+train_features = np.c_[train_features_perplexity4, train_features_perplexity3]
 
 dev_articles = get_articles(DEV)
 dev_labels = get_labels(DEV_LABELS)
 # dev_features = get_perplexity_features(dev_articles)
 dev_features = np.loadtxt("Features/dev_perplexity_f.txt")
 # dev_features = scalar.transform(dev_features)
-train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/dev_perp_wit_out"))[:,0]
-train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/dev_perp_wit_out"))[:,0]
+train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/dev_perp_wit_out"))[:,0]
+train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/dev_perp_wit_out"))[:,0]
 
 X = train_features
 n1 = 0
