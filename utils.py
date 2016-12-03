@@ -110,6 +110,14 @@ if __name__ == "__main__":
     tic()
     a = get_articles_list(TRAIN)
     toc("F2")
+    labels = get_labels(TRAIN_LABELS)
+    p, n = split_articles(a, labels)
+
+    p = "\n~~~~~ \n".join(map("\n".join, p))
+    n = "\n~~~~~ \n".join(map("\n".join, n))
+    write("trainPositive.dat", p)
+    write("trainNegative.dat", n)
+
 
 
 # In[31]:

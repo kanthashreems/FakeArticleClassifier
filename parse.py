@@ -2,7 +2,8 @@ import numpy as np
 import utils
 import re
 
-parse_indices = [(2,2),(2,5),(3,3),(4,5),(5,5),(6,5),(7,5)]
+parse_indices_3gram = [(2,2),(2,5),(3,3),(4,5),(5,5),(6,5)]
+parse_indices_4gram = [(2,2),(2,5),(3,3),(4,5),(5,5),(6,5),(7,5)]
 def get_parse_idx_values(parse_indices, ev):
 	ev = ev.split("\n")
 	l = []
@@ -22,6 +23,6 @@ def parse_file(parse_indices, textfile):
 	return parsed_vals
 
 FNAME = "4gram/perp_wit_out_sample"
-parsed_vals = parse_file(parse_indices, FNAME)
-# print parsed_vals
+parsed_vals = parse_file(parse_indices_3gram, FNAME)
+print parsed_vals
 
