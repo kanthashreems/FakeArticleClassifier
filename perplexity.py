@@ -103,7 +103,7 @@ np.savetxt("train_perplexity_f.txt", train_features)
 scalar = StandardScaler()
 train_features = scalar.fit_transform(train_features)
 train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/perp_wit_out"))[:,0]
-train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/perp_out"))[:,0]
+train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/perp_wit_out"))[:,0]
 train_features = np.c_[train_features_perplexity3, train_features_perplexity4]
 
 dev_articles = get_articles(DEV)
