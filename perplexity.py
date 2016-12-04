@@ -96,27 +96,34 @@ def get_perplexity_features(articles):
 train_articles = get_articles(TRAIN)
 train_labels = get_labels(TRAIN_LABELS)
 # train_features = get_perplexity_features(train_articles)
-train_features = np.loadtxt("Features/train_perplexity_f.txt")
+# train_features = np.loadtxt("Features/train_perplexity_f.txt")
 # np.savetxt("train_perplexity_f.txt", train_features)
 
-np.savetxt("train_perplexity_f.txt", train_features)
+# np.savetxt("train_perplexity_f.txt", train_features)
 scalar = StandardScaler()
 
-train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/perp_wit_out"))[:,0]
+train_features_perplexity1 = np.array(parse.parse_file(parse.parse_indices_1gram, "1gram/perp_wit_out"))[:,0]
+train_features_perplexity2 = np.array(parse.parse_file(parse.parse_indices_2gram, "2gram/perp_wit_out"))[:,0]
 train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/perp_wit_out"))[:,0]
-train_w2v = np.loadtxt("Features/word2vec_train.txt")
-train_features = np.c_[train_features_perplexity3, train_features_perplexity4, train_w2v]
-# train_features = scalar.fit_transform(train_features)
+train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/perp_wit_out"))[:,0]
+train_features_perplexity5 = np.array(parse.parse_file(parse.parse_indices_5gram, "5gram/perp_wit_out"))[:,0]
+
+# train_w2v = np.loadtxt("Features/word2vec_train.txt")
+train_features = np.c_[train_features_perplexity1, train_features_perplexity2, train_features_perplexity3, train_features_perplexity4, train_features_perplexity5]
+train_features = scalar.fit_transform(train_features)
 dev_articles = get_articles(DEV)
 dev_labels = get_labels(DEV_LABELS)
 # dev_features = get_perplexity_features(dev_articles)
-dev_features = np.loadtxt("Features/dev_perplexity_f.txt")
+# dev_features = np.loadtxt("Features/dev_perplexity_f.txt")
 # dev_features = scalar.transform(dev_features)
+dev_features_perplexity1 = np.array(parse.parse_file(parse.parse_indices_1gram, "1gram/dev_perp_wit_out"))[:,0]
+dev_features_perplexity2 = np.array(parse.parse_file(parse.parse_indices_2gram, "2gram/dev_perp_wit_out"))[:,0]
 dev_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/dev_perp_wit_out"))[:,0]
 dev_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/dev_perp_wit_out"))[:,0]
-dev_w2v = np.loadtxt("Features/word2vec_dev.txt")
-dev_features = np.c_[dev_features_perplexity3, dev_features_perplexity4, dev_w2v]
-# dev_features = scalar.transform(dev_features)
+dev_features_perplexity5 = np.array(parse.parse_file(parse.parse_indices_5gram, "5gram/dev_perp_wit_out"))[:,0]
+# dev_w2v = np.loadtxt("Features/word2vec_dev.txt")
+dev_features = np.c_[ dev_features_perplexity1, dev_features_perplexity2, dev_features_perplexity3, dev_features_perplexity4, dev_features_perplexity5]
+dev_features = scalar.transform(dev_features)
 X = train_features
 n1 = 0
 n2 = 1
@@ -125,16 +132,17 @@ y_min, y_max = X[:, n2].min() - 1, X[:, n2].max() + 1
 h = 0.2
 
 xx, yy = np.meshgrid(np.arange(x_min, x_max, h),np.arange(y_min, y_max, h))
-for g in [0]:
+for g in [0.25,0.3,0.275]:
+	print g
 	# lg = SVC(kernel='linear', gamma = 0.0001, C=0.5)
-	lg = LogisticRegression()
-	lg.fit(train_features[:,[2]], train_labels)
+	lg = LogisticRegression(C=g)
+	lg.fit(train_features, train_labels)
 
 
 	# np.savetxt("dev_perplexity_f.txt", dev_features)
 
-	y_pred_train = lg.predict(train_features[:,[2]])
-	y_pred = lg.predict(dev_features[:,[2]])
+	y_pred_train = lg.predict(train_features)
+	y_pred = lg.predict(dev_features)
 
 	print "Train:"
 	eval.classification_error(y_pred_train, dev=0)

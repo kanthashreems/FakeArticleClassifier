@@ -2,8 +2,11 @@ import numpy as np
 import utils
 import re
 
+parse_indices_1gram = [(2,2),(2,5),(3,3),(4,5)]
+parse_indices_2gram = [(2,2),(2,5),(3,3),(4,5),(5,5)]
 parse_indices_3gram = [(2,2),(2,5),(3,3),(4,5),(5,5),(6,5)]
 parse_indices_4gram = [(2,2),(2,5),(3,3),(4,5),(5,5),(6,5),(7,5)]
+parse_indices_5gram = [(2,2),(2,5),(3,3),(4,5),(5,5),(6,5),(7,5),(8,5)]
 def get_parse_idx_values(parse_indices, ev):
 	ev = ev.split("\n")
 	l = []
