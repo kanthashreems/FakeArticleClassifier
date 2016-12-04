@@ -101,36 +101,40 @@ train_features = np.loadtxt("Features/train_perplexity_f.txt")
 
 np.savetxt("train_perplexity_f.txt", train_features)
 scalar = StandardScaler()
-train_features = scalar.fit_transform(train_features)
+
 train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/perp_wit_out"))[:,0]
 train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/perp_wit_out"))[:,0]
-train_features = np.c_[train_features_perplexity4, train_features_perplexity3]
-
+train_w2v = np.loadtxt("Features/word2vec_train.txt")
+train_features = np.c_[train_features_perplexity3, train_features_perplexity4, train_w2v]
+# train_features = scalar.fit_transform(train_features)
 dev_articles = get_articles(DEV)
 dev_labels = get_labels(DEV_LABELS)
 # dev_features = get_perplexity_features(dev_articles)
 dev_features = np.loadtxt("Features/dev_perplexity_f.txt")
 # dev_features = scalar.transform(dev_features)
-train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/dev_perp_wit_out"))[:,0]
-train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/dev_perp_wit_out"))[:,0]
-
+dev_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/dev_perp_wit_out"))[:,0]
+dev_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/dev_perp_wit_out"))[:,0]
+dev_w2v = np.loadtxt("Features/word2vec_dev.txt")
+dev_features = np.c_[dev_features_perplexity3, dev_features_perplexity4, dev_w2v]
+# dev_features = scalar.transform(dev_features)
 X = train_features
 n1 = 0
 n2 = 1
 x_min, x_max = X[:, n1].min() - 1, X[:, n1].max() + 1
 y_min, y_max = X[:, n2].min() - 1, X[:, n2].max() + 1
-h = 0.02
+h = 0.2
 
-# xx, yy = np.meshgrid(np.arange(x_min, x_max, h),np.arange(y_min, y_max, h))
+xx, yy = np.meshgrid(np.arange(x_min, x_max, h),np.arange(y_min, y_max, h))
 for g in [0]:
-	lg = SVC(kernel='rbf', gamma=0.5, C=3)
-	lg.fit(train_features, train_labels)
+	# lg = SVC(kernel='linear', gamma = 0.0001, C=0.5)
+	lg = LogisticRegression()
+	lg.fit(train_features[:,[2]], train_labels)
 
 
 	# np.savetxt("dev_perplexity_f.txt", dev_features)
 
-	y_pred_train = lg.predict(train_features)
-	y_pred = lg.predict(dev_features[:,[0,1]])
+	y_pred_train = lg.predict(train_features[:,[2]])
+	y_pred = lg.predict(dev_features[:,[2]])
 
 	print "Train:"
 	eval.classification_error(y_pred_train, dev=0)
@@ -143,22 +147,37 @@ for g in [0]:
 	
 # 	Z = lg.predict(np.c_[xx.ravel(), yy.ravel()])
 
-# 	# Put the result into a color plot
+# # 	# Put the result into a color plot
 # 	Z = Z.reshape(xx.shape)
 # 	plt.figure(figsize=(5,5))
 # 	plt.contourf(xx, yy, Z, cmap=plt.cm.coolwarm, alpha=0.8)
 
-# 	# # Plot also the training points
+# # 	# # Plot also the training points
 	
-	plt.scatter(X[:, 0], X[:, 1], c=train_labels, cmap=plt.cm.coolwarm, marker = "+")
+# 	plt.scatter(X[:, 0], X[:, 1], c=train_labels, cmap=plt.cm.coolwarm, marker = "+")
 # 	plt.scatter(dev_features[:, 0], dev_features[:, 1], c=dev_labels, cmap=plt.cm.coolwarm)
 # 	plt.xlabel('1 gram')
 # 	plt.ylabel('2 gram')
 # 	plt.xlim(xx.min(), xx.max())
 # 	plt.ylim(yy.min(), yy.max())
-# 	plt.xticks(())
-# 	plt.yticks(())
+# 	# plt.xticks(())
+# 	# plt.yticks(())
 # 	plt.title("Decision boundary C:" + str(g))
+
+	#false pos and false neg
+	y_diff = y_pred - np.array(dev_labels)
+	# pdb.set_trace()
+	y_fp_idx = (y_diff == 1)
+	y_fp = list(np.array(dev_articles)[y_fp_idx])
+	y_fn_idx = (y_diff == -1)
+	y_fn = list(np.array(dev_articles)[y_fn_idx])
+
+	y_fp_articles = "\n~~~~~ \n".join(["\n".join(a) for a in y_fp])
+	y_fn_articles = "\n~~~~~ \n".join(["\n".join(a) for a in y_fn])
+	write("fp.txt", y_fp_articles)
+	write("fn.txt", y_fn_articles)
+
+
 plt.show()
 
 
