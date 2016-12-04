@@ -1,0 +1,1601 @@
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle0.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.76, Entropy = 2.25 bits
+Computation based on 29 words.
+Number of 2-grams hit = 28  (96.55%)
+Number of 1-grams hit = 1  (3.45%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle1.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.32, Entropy = 2.11 bits
+Computation based on 28 words.
+Number of 2-grams hit = 27  (96.43%)
+Number of 1-grams hit = 1  (3.57%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle2.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.13, Entropy = 2.05 bits
+Computation based on 18 words.
+Number of 2-grams hit = 17  (94.44%)
+Number of 1-grams hit = 1  (5.56%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle3.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.72, Entropy = 2.24 bits
+Computation based on 27 words.
+Number of 2-grams hit = 26  (96.30%)
+Number of 1-grams hit = 1  (3.70%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle4.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.71, Entropy = 2.23 bits
+Computation based on 20 words.
+Number of 2-grams hit = 19  (95.00%)
+Number of 1-grams hit = 1  (5.00%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle5.out
+Will force inclusive back-off from OOVs.
+Perplexity = 9.50, Entropy = 3.25 bits
+Computation based on 9 words.
+Number of 2-grams hit = 8  (88.89%)
+Number of 1-grams hit = 1  (11.11%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle6.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.18, Entropy = 1.67 bits
+Computation based on 10 words.
+Number of 2-grams hit = 9  (90.00%)
+Number of 1-grams hit = 1  (10.00%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle7.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.91, Entropy = 2.56 bits
+Computation based on 29 words.
+Number of 2-grams hit = 28  (96.55%)
+Number of 1-grams hit = 1  (3.45%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle8.out
+Will force inclusive back-off from OOVs.
+Perplexity = 6.28, Entropy = 2.65 bits
+Computation based on 18 words.
+Number of 2-grams hit = 17  (94.44%)
+Number of 1-grams hit = 1  (5.56%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle9.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.88, Entropy = 1.96 bits
+Computation based on 13 words.
+Number of 2-grams hit = 12  (92.31%)
+Number of 1-grams hit = 1  (7.69%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle10.out
+Will force inclusive back-off from OOVs.
+Perplexity = 7.55, Entropy = 2.92 bits
+Computation based on 9 words.
+Number of 2-grams hit = 8  (88.89%)
+Number of 1-grams hit = 1  (11.11%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle11.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.52, Entropy = 2.46 bits
+Computation based on 50 words.
+Number of 2-grams hit = 49  (98.00%)
+Number of 1-grams hit = 1  (2.00%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle12.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.03, Entropy = 1.60 bits
+Computation based on 28 words.
+Number of 2-grams hit = 27  (96.43%)
+Number of 1-grams hit = 1  (3.57%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle13.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.84, Entropy = 1.94 bits
+Computation based on 32 words.
+Number of 2-grams hit = 31  (96.88%)
+Number of 1-grams hit = 1  (3.12%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle14.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.78, Entropy = 2.53 bits
+Computation based on 24 words.
+Number of 2-grams hit = 23  (95.83%)
+Number of 1-grams hit = 1  (4.17%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle15.out
+Will force inclusive back-off from OOVs.
+Perplexity = 8.26, Entropy = 3.05 bits
+Computation based on 6 words.
+Number of 2-grams hit = 5  (83.33%)
+Number of 1-grams hit = 1  (16.67%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle16.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.06, Entropy = 2.34 bits
+Computation based on 23 words.
+Number of 2-grams hit = 22  (95.65%)
+Number of 1-grams hit = 1  (4.35%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle17.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.92, Entropy = 1.97 bits
+Computation based on 14 words.
+Number of 2-grams hit = 13  (92.86%)
+Number of 1-grams hit = 1  (7.14%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle18.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.28, Entropy = 2.40 bits
+Computation based on 25 words.
+Number of 2-grams hit = 24  (96.00%)
+Number of 1-grams hit = 1  (4.00%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle19.out
+Will force inclusive back-off from OOVs.
+Perplexity = 6.83, Entropy = 2.77 bits
+Computation based on 54 words.
+Number of 2-grams hit = 53  (98.15%)
+Number of 1-grams hit = 1  (1.85%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle20.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.85, Entropy = 2.55 bits
+Computation based on 21 words.
+Number of 2-grams hit = 20  (95.24%)
+Number of 1-grams hit = 1  (4.76%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle21.out
+Will force inclusive back-off from OOVs.
+Perplexity = 9.72, Entropy = 3.28 bits
+Computation based on 14 words.
+Number of 2-grams hit = 13  (92.86%)
+Number of 1-grams hit = 1  (7.14%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle22.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.33, Entropy = 2.11 bits
+Computation based on 31 words.
+Number of 2-grams hit = 30  (96.77%)
+Number of 1-grams hit = 1  (3.23%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle23.out
+Will force inclusive back-off from OOVs.
+Perplexity = 6.07, Entropy = 2.60 bits
+Computation based on 12 words.
+Number of 2-grams hit = 11  (91.67%)
+Number of 1-grams hit = 1  (8.33%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle24.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.35, Entropy = 2.42 bits
+Computation based on 25 words.
+Number of 2-grams hit = 24  (96.00%)
+Number of 1-grams hit = 1  (4.00%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle25.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.14, Entropy = 2.36 bits
+Computation based on 36 words.
+Number of 2-grams hit = 35  (97.22%)
+Number of 1-grams hit = 1  (2.78%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle26.out
+Will force inclusive back-off from OOVs.
+Perplexity = 6.43, Entropy = 2.68 bits
+Computation based on 26 words.
+Number of 2-grams hit = 25  (96.15%)
+Number of 1-grams hit = 1  (3.85%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle27.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.25, Entropy = 2.39 bits
+Computation based on 12 words.
+Number of 2-grams hit = 11  (91.67%)
+Number of 1-grams hit = 1  (8.33%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle28.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.69, Entropy = 1.88 bits
+Computation based on 31 words.
+Number of 2-grams hit = 30  (96.77%)
+Number of 1-grams hit = 1  (3.23%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle29.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.62, Entropy = 1.86 bits
+Computation based on 28 words.
+Number of 2-grams hit = 27  (96.43%)
+Number of 1-grams hit = 1  (3.57%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle30.out
+Will force inclusive back-off from OOVs.
+Perplexity = 6.13, Entropy = 2.62 bits
+Computation based on 13 words.
+Number of 2-grams hit = 12  (92.31%)
+Number of 1-grams hit = 1  (7.69%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle31.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.69, Entropy = 2.23 bits
+Computation based on 18 words.
+Number of 2-grams hit = 17  (94.44%)
+Number of 1-grams hit = 1  (5.56%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle32.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.60, Entropy = 2.20 bits
+Computation based on 22 words.
+Number of 2-grams hit = 21  (95.45%)
+Number of 1-grams hit = 1  (4.55%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle33.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.89, Entropy = 2.29 bits
+Computation based on 19 words.
+Number of 2-grams hit = 18  (94.74%)
+Number of 1-grams hit = 1  (5.26%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle34.out
+Will force inclusive back-off from OOVs.
+Perplexity = 7.24, Entropy = 2.86 bits
+Computation based on 32 words.
+Number of 2-grams hit = 31  (96.88%)
+Number of 1-grams hit = 1  (3.12%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle35.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.28, Entropy = 1.71 bits
+Computation based on 80 words.
+Number of 2-grams hit = 79  (98.75%)
+Number of 1-grams hit = 1  (1.25%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle36.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.56, Entropy = 2.48 bits
+Computation based on 26 words.
+Number of 2-grams hit = 25  (96.15%)
+Number of 1-grams hit = 1  (3.85%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle37.out
+Will force inclusive back-off from OOVs.
+Perplexity = 2.58, Entropy = 1.37 bits
+Computation based on 15 words.
+Number of 2-grams hit = 14  (93.33%)
+Number of 1-grams hit = 1  (6.67%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle38.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.43, Entropy = 1.78 bits
+Computation based on 24 words.
+Number of 2-grams hit = 23  (95.83%)
+Number of 1-grams hit = 1  (4.17%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle39.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.96, Entropy = 1.98 bits
+Computation based on 24 words.
+Number of 2-grams hit = 23  (95.83%)
+Number of 1-grams hit = 1  (4.17%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle40.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.20, Entropy = 2.07 bits
+Computation based on 35 words.
+Number of 2-grams hit = 34  (97.14%)
+Number of 1-grams hit = 1  (2.86%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle41.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.57, Entropy = 2.19 bits
+Computation based on 22 words.
+Number of 2-grams hit = 21  (95.45%)
+Number of 1-grams hit = 1  (4.55%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle42.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.49, Entropy = 2.17 bits
+Computation based on 51 words.
+Number of 2-grams hit = 50  (98.04%)
+Number of 1-grams hit = 1  (1.96%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle43.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.39, Entropy = 1.76 bits
+Computation based on 43 words.
+Number of 2-grams hit = 42  (97.67%)
+Number of 1-grams hit = 1  (2.33%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle44.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.96, Entropy = 1.99 bits
+Computation based on 63 words.
+Number of 2-grams hit = 62  (98.41%)
+Number of 1-grams hit = 1  (1.59%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle45.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.45, Entropy = 2.45 bits
+Computation based on 27 words.
+Number of 2-grams hit = 26  (96.30%)
+Number of 1-grams hit = 1  (3.70%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle46.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.99, Entropy = 2.00 bits
+Computation based on 67 words.
+Number of 2-grams hit = 66  (98.51%)
+Number of 1-grams hit = 1  (1.49%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle47.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.07, Entropy = 2.03 bits
+Computation based on 63 words.
+Number of 2-grams hit = 62  (98.41%)
+Number of 1-grams hit = 1  (1.59%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle48.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.06, Entropy = 2.02 bits
+Computation based on 39 words.
+Number of 2-grams hit = 38  (97.44%)
+Number of 1-grams hit = 1  (2.56%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle49.out
+Will force inclusive back-off from OOVs.
+Perplexity = 2.24, Entropy = 1.16 bits
+Computation based on 80 words.
+Number of 2-grams hit = 79  (98.75%)
+Number of 1-grams hit = 1  (1.25%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle50.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.72, Entropy = 1.89 bits
+Computation based on 34 words.
+Number of 2-grams hit = 33  (97.06%)
+Number of 1-grams hit = 1  (2.94%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle51.out
+Will force inclusive back-off from OOVs.
+Perplexity = 6.60, Entropy = 2.72 bits
+Computation based on 25 words.
+Number of 2-grams hit = 24  (96.00%)
+Number of 1-grams hit = 1  (4.00%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle52.out
+Will force inclusive back-off from OOVs.
+Perplexity = 6.10, Entropy = 2.61 bits
+Computation based on 55 words.
+Number of 2-grams hit = 54  (98.18%)
+Number of 1-grams hit = 1  (1.82%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle53.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.49, Entropy = 1.80 bits
+Computation based on 54 words.
+Number of 2-grams hit = 53  (98.15%)
+Number of 1-grams hit = 1  (1.85%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle54.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.55, Entropy = 2.47 bits
+Computation based on 48 words.
+Number of 2-grams hit = 47  (97.92%)
+Number of 1-grams hit = 1  (2.08%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle55.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.92, Entropy = 1.97 bits
+Computation based on 43 words.
+Number of 2-grams hit = 42  (97.67%)
+Number of 1-grams hit = 1  (2.33%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle56.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.76, Entropy = 2.25 bits
+Computation based on 47 words.
+Number of 2-grams hit = 46  (97.87%)
+Number of 1-grams hit = 1  (2.13%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle57.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.57, Entropy = 1.84 bits
+Computation based on 19 words.
+Number of 2-grams hit = 18  (94.74%)
+Number of 1-grams hit = 1  (5.26%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle58.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.94, Entropy = 1.98 bits
+Computation based on 41 words.
+Number of 2-grams hit = 40  (97.56%)
+Number of 1-grams hit = 1  (2.44%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle59.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.07, Entropy = 2.34 bits
+Computation based on 47 words.
+Number of 2-grams hit = 46  (97.87%)
+Number of 1-grams hit = 1  (2.13%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle60.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.22, Entropy = 1.69 bits
+Computation based on 51 words.
+Number of 2-grams hit = 50  (98.04%)
+Number of 1-grams hit = 1  (1.96%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle61.out
+Will force inclusive back-off from OOVs.
+Perplexity = 6.01, Entropy = 2.59 bits
+Computation based on 44 words.
+Number of 2-grams hit = 43  (97.73%)
+Number of 1-grams hit = 1  (2.27%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle62.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.34, Entropy = 1.74 bits
+Computation based on 61 words.
+Number of 2-grams hit = 60  (98.36%)
+Number of 1-grams hit = 1  (1.64%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle63.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.97, Entropy = 1.99 bits
+Computation based on 41 words.
+Number of 2-grams hit = 40  (97.56%)
+Number of 1-grams hit = 1  (2.44%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle64.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.10, Entropy = 2.03 bits
+Computation based on 23 words.
+Number of 2-grams hit = 22  (95.65%)
+Number of 1-grams hit = 1  (4.35%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle65.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.27, Entropy = 1.71 bits
+Computation based on 22 words.
+Number of 2-grams hit = 21  (95.45%)
+Number of 1-grams hit = 1  (4.55%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle66.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.34, Entropy = 2.42 bits
+Computation based on 69 words.
+Number of 2-grams hit = 68  (98.55%)
+Number of 1-grams hit = 1  (1.45%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle67.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.32, Entropy = 2.11 bits
+Computation based on 59 words.
+Number of 2-grams hit = 58  (98.31%)
+Number of 1-grams hit = 1  (1.69%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle68.out
+Will force inclusive back-off from OOVs.
+Perplexity = 2.68, Entropy = 1.42 bits
+Computation based on 72 words.
+Number of 2-grams hit = 71  (98.61%)
+Number of 1-grams hit = 1  (1.39%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle69.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.33, Entropy = 1.74 bits
+Computation based on 53 words.
+Number of 2-grams hit = 52  (98.11%)
+Number of 1-grams hit = 1  (1.89%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle70.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.16, Entropy = 1.66 bits
+Computation based on 52 words.
+Number of 2-grams hit = 51  (98.08%)
+Number of 1-grams hit = 1  (1.92%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle71.out
+Will force inclusive back-off from OOVs.
+Perplexity = 6.89, Entropy = 2.78 bits
+Computation based on 29 words.
+Number of 2-grams hit = 28  (96.55%)
+Number of 1-grams hit = 1  (3.45%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle72.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.58, Entropy = 2.48 bits
+Computation based on 50 words.
+Number of 2-grams hit = 49  (98.00%)
+Number of 1-grams hit = 1  (2.00%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle73.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.72, Entropy = 1.90 bits
+Computation based on 61 words.
+Number of 2-grams hit = 60  (98.36%)
+Number of 1-grams hit = 1  (1.64%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle74.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.76, Entropy = 1.91 bits
+Computation based on 60 words.
+Number of 2-grams hit = 59  (98.33%)
+Number of 1-grams hit = 1  (1.67%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle75.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.87, Entropy = 1.95 bits
+Computation based on 34 words.
+Number of 2-grams hit = 33  (97.06%)
+Number of 1-grams hit = 1  (2.94%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle76.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.90, Entropy = 2.29 bits
+Computation based on 49 words.
+Number of 2-grams hit = 48  (97.96%)
+Number of 1-grams hit = 1  (2.04%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle77.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.76, Entropy = 1.91 bits
+Computation based on 76 words.
+Number of 2-grams hit = 75  (98.68%)
+Number of 1-grams hit = 1  (1.32%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle78.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.88, Entropy = 2.29 bits
+Computation based on 59 words.
+Number of 2-grams hit = 58  (98.31%)
+Number of 1-grams hit = 1  (1.69%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle79.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.67, Entropy = 2.22 bits
+Computation based on 58 words.
+Number of 2-grams hit = 57  (98.28%)
+Number of 1-grams hit = 1  (1.72%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle80.out
+Will force inclusive back-off from OOVs.
+Perplexity = 2.95, Entropy = 1.56 bits
+Computation based on 60 words.
+Number of 2-grams hit = 59  (98.33%)
+Number of 1-grams hit = 1  (1.67%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle81.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.00, Entropy = 2.00 bits
+Computation based on 63 words.
+Number of 2-grams hit = 62  (98.41%)
+Number of 1-grams hit = 1  (1.59%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle82.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.74, Entropy = 2.25 bits
+Computation based on 116 words.
+Number of 2-grams hit = 115  (99.14%)
+Number of 1-grams hit = 1  (0.86%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle83.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.44, Entropy = 2.15 bits
+Computation based on 63 words.
+Number of 2-grams hit = 62  (98.41%)
+Number of 1-grams hit = 1  (1.59%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle84.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.69, Entropy = 1.88 bits
+Computation based on 86 words.
+Number of 2-grams hit = 85  (98.84%)
+Number of 1-grams hit = 1  (1.16%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle85.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.54, Entropy = 1.83 bits
+Computation based on 41 words.
+Number of 2-grams hit = 40  (97.56%)
+Number of 1-grams hit = 1  (2.44%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle86.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.50, Entropy = 2.46 bits
+Computation based on 83 words.
+Number of 2-grams hit = 82  (98.80%)
+Number of 1-grams hit = 1  (1.20%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle87.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.04, Entropy = 2.01 bits
+Computation based on 49 words.
+Number of 2-grams hit = 48  (97.96%)
+Number of 1-grams hit = 1  (2.04%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle88.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.07, Entropy = 2.02 bits
+Computation based on 106 words.
+Number of 2-grams hit = 105  (99.06%)
+Number of 1-grams hit = 1  (0.94%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle89.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.25, Entropy = 2.09 bits
+Computation based on 83 words.
+Number of 2-grams hit = 82  (98.80%)
+Number of 1-grams hit = 1  (1.20%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle90.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.65, Entropy = 2.22 bits
+Computation based on 77 words.
+Number of 2-grams hit = 76  (98.70%)
+Number of 1-grams hit = 1  (1.30%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle91.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.27, Entropy = 1.71 bits
+Computation based on 49 words.
+Number of 2-grams hit = 48  (97.96%)
+Number of 1-grams hit = 1  (2.04%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle92.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.31, Entropy = 2.11 bits
+Computation based on 92 words.
+Number of 2-grams hit = 91  (98.91%)
+Number of 1-grams hit = 1  (1.09%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle93.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.62, Entropy = 1.86 bits
+Computation based on 143 words.
+Number of 2-grams hit = 142  (99.30%)
+Number of 1-grams hit = 1  (0.70%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle94.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.85, Entropy = 2.28 bits
+Computation based on 38 words.
+Number of 2-grams hit = 37  (97.37%)
+Number of 1-grams hit = 1  (2.63%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle95.out
+Will force inclusive back-off from OOVs.
+Perplexity = 2.86, Entropy = 1.51 bits
+Computation based on 162 words.
+Number of 2-grams hit = 161  (99.38%)
+Number of 1-grams hit = 1  (0.62%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle96.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.68, Entropy = 1.88 bits
+Computation based on 96 words.
+Number of 2-grams hit = 95  (98.96%)
+Number of 1-grams hit = 1  (1.04%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle97.out
+Will force inclusive back-off from OOVs.
+Perplexity = 5.57, Entropy = 2.48 bits
+Computation based on 47 words.
+Number of 2-grams hit = 46  (97.87%)
+Number of 1-grams hit = 1  (2.13%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle98.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.42, Entropy = 2.14 bits
+Computation based on 101 words.
+Number of 2-grams hit = 100  (99.01%)
+Number of 1-grams hit = 1  (0.99%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle99.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.28, Entropy = 1.71 bits
+Computation based on 85 words.
+Number of 2-grams hit = 84  (98.82%)
+Number of 1-grams hit = 1  (1.18%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle100.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.10, Entropy = 2.04 bits
+Computation based on 103 words.
+Number of 2-grams hit = 102  (99.03%)
+Number of 1-grams hit = 1  (0.97%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle101.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.58, Entropy = 2.20 bits
+Computation based on 87 words.
+Number of 2-grams hit = 86  (98.85%)
+Number of 1-grams hit = 1  (1.15%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle102.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.30, Entropy = 1.72 bits
+Computation based on 92 words.
+Number of 2-grams hit = 91  (98.91%)
+Number of 1-grams hit = 1  (1.09%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle103.out
+Will force inclusive back-off from OOVs.
+Perplexity = 6.17, Entropy = 2.62 bits
+Computation based on 78 words.
+Number of 2-grams hit = 77  (98.72%)
+Number of 1-grams hit = 1  (1.28%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle104.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.88, Entropy = 2.29 bits
+Computation based on 74 words.
+Number of 2-grams hit = 73  (98.65%)
+Number of 1-grams hit = 1  (1.35%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle105.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.47, Entropy = 1.80 bits
+Computation based on 96 words.
+Number of 2-grams hit = 95  (98.96%)
+Number of 1-grams hit = 1  (1.04%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle106.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.26, Entropy = 2.09 bits
+Computation based on 65 words.
+Number of 2-grams hit = 64  (98.46%)
+Number of 1-grams hit = 1  (1.54%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle107.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.66, Entropy = 1.87 bits
+Computation based on 47 words.
+Number of 2-grams hit = 46  (97.87%)
+Number of 1-grams hit = 1  (2.13%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle108.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.51, Entropy = 2.17 bits
+Computation based on 133 words.
+Number of 2-grams hit = 132  (99.25%)
+Number of 1-grams hit = 1  (0.75%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle109.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.15, Entropy = 2.05 bits
+Computation based on 107 words.
+Number of 2-grams hit = 106  (99.07%)
+Number of 1-grams hit = 1  (0.93%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle110.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.99, Entropy = 2.00 bits
+Computation based on 127 words.
+Number of 2-grams hit = 126  (99.21%)
+Number of 1-grams hit = 1  (0.79%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle111.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.18, Entropy = 1.67 bits
+Computation based on 75 words.
+Number of 2-grams hit = 74  (98.67%)
+Number of 1-grams hit = 1  (1.33%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle112.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.64, Entropy = 2.22 bits
+Computation based on 97 words.
+Number of 2-grams hit = 96  (98.97%)
+Number of 1-grams hit = 1  (1.03%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle113.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.25, Entropy = 1.70 bits
+Computation based on 102 words.
+Number of 2-grams hit = 101  (99.02%)
+Number of 1-grams hit = 1  (0.98%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle114.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.73, Entropy = 1.90 bits
+Computation based on 149 words.
+Number of 2-grams hit = 148  (99.33%)
+Number of 1-grams hit = 1  (0.67%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle115.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.44, Entropy = 1.78 bits
+Computation based on 78 words.
+Number of 2-grams hit = 77  (98.72%)
+Number of 1-grams hit = 1  (1.28%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle116.out
+Will force inclusive back-off from OOVs.
+Perplexity = 2.87, Entropy = 1.52 bits
+Computation based on 118 words.
+Number of 2-grams hit = 117  (99.15%)
+Number of 1-grams hit = 1  (0.85%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle117.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.29, Entropy = 1.72 bits
+Computation based on 87 words.
+Number of 2-grams hit = 86  (98.85%)
+Number of 1-grams hit = 1  (1.15%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle118.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.44, Entropy = 2.15 bits
+Computation based on 99 words.
+Number of 2-grams hit = 98  (98.99%)
+Number of 1-grams hit = 1  (1.01%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle119.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.22, Entropy = 2.08 bits
+Computation based on 54 words.
+Number of 2-grams hit = 53  (98.15%)
+Number of 1-grams hit = 1  (1.85%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle120.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.36, Entropy = 2.12 bits
+Computation based on 137 words.
+Number of 2-grams hit = 136  (99.27%)
+Number of 1-grams hit = 1  (0.73%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle121.out
+Will force inclusive back-off from OOVs.
+Perplexity = 2.32, Entropy = 1.21 bits
+Computation based on 171 words.
+Number of 2-grams hit = 170  (99.42%)
+Number of 1-grams hit = 1  (0.58%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle122.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.44, Entropy = 1.78 bits
+Computation based on 110 words.
+Number of 2-grams hit = 109  (99.09%)
+Number of 1-grams hit = 1  (0.91%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle123.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.15, Entropy = 2.05 bits
+Computation based on 64 words.
+Number of 2-grams hit = 63  (98.44%)
+Number of 1-grams hit = 1  (1.56%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle124.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.38, Entropy = 1.76 bits
+Computation based on 152 words.
+Number of 2-grams hit = 151  (99.34%)
+Number of 1-grams hit = 1  (0.66%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle125.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.79, Entropy = 1.92 bits
+Computation based on 104 words.
+Number of 2-grams hit = 103  (99.04%)
+Number of 1-grams hit = 1  (0.96%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle126.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.11, Entropy = 1.63 bits
+Computation based on 153 words.
+Number of 2-grams hit = 152  (99.35%)
+Number of 1-grams hit = 1  (0.65%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle127.out
+Will force inclusive back-off from OOVs.
+Perplexity = 2.44, Entropy = 1.29 bits
+Computation based on 170 words.
+Number of 2-grams hit = 169  (99.41%)
+Number of 1-grams hit = 1  (0.59%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle128.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.03, Entropy = 1.60 bits
+Computation based on 91 words.
+Number of 2-grams hit = 90  (98.90%)
+Number of 1-grams hit = 1  (1.10%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle129.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.37, Entropy = 1.75 bits
+Computation based on 127 words.
+Number of 2-grams hit = 126  (99.21%)
+Number of 1-grams hit = 1  (0.79%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle130.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.83, Entropy = 1.94 bits
+Computation based on 151 words.
+Number of 2-grams hit = 150  (99.34%)
+Number of 1-grams hit = 1  (0.66%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle131.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.41, Entropy = 2.14 bits
+Computation based on 77 words.
+Number of 2-grams hit = 76  (98.70%)
+Number of 1-grams hit = 1  (1.30%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle132.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.68, Entropy = 1.88 bits
+Computation based on 139 words.
+Number of 2-grams hit = 138  (99.28%)
+Number of 1-grams hit = 1  (0.72%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle133.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.35, Entropy = 2.12 bits
+Computation based on 109 words.
+Number of 2-grams hit = 108  (99.08%)
+Number of 1-grams hit = 1  (0.92%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle134.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.60, Entropy = 1.85 bits
+Computation based on 87 words.
+Number of 2-grams hit = 86  (98.85%)
+Number of 1-grams hit = 1  (1.15%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle135.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.28, Entropy = 1.71 bits
+Computation based on 85 words.
+Number of 2-grams hit = 84  (98.82%)
+Number of 1-grams hit = 1  (1.18%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle136.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.26, Entropy = 2.09 bits
+Computation based on 140 words.
+Number of 2-grams hit = 139  (99.29%)
+Number of 1-grams hit = 1  (0.71%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle137.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.97, Entropy = 1.99 bits
+Computation based on 151 words.
+Number of 2-grams hit = 150  (99.34%)
+Number of 1-grams hit = 1  (0.66%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle138.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.65, Entropy = 1.87 bits
+Computation based on 102 words.
+Number of 2-grams hit = 101  (99.02%)
+Number of 1-grams hit = 1  (0.98%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle139.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.43, Entropy = 1.78 bits
+Computation based on 122 words.
+Number of 2-grams hit = 121  (99.18%)
+Number of 1-grams hit = 1  (0.82%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle140.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.34, Entropy = 1.74 bits
+Computation based on 212 words.
+Number of 2-grams hit = 211  (99.53%)
+Number of 1-grams hit = 1  (0.47%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle141.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.91, Entropy = 1.97 bits
+Computation based on 146 words.
+Number of 2-grams hit = 145  (99.32%)
+Number of 1-grams hit = 1  (0.68%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle142.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.28, Entropy = 2.10 bits
+Computation based on 113 words.
+Number of 2-grams hit = 112  (99.12%)
+Number of 1-grams hit = 1  (0.88%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle143.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.64, Entropy = 2.21 bits
+Computation based on 200 words.
+Number of 2-grams hit = 199  (99.50%)
+Number of 1-grams hit = 1  (0.50%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle144.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.02, Entropy = 2.01 bits
+Computation based on 118 words.
+Number of 2-grams hit = 117  (99.15%)
+Number of 1-grams hit = 1  (0.85%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle145.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.86, Entropy = 1.95 bits
+Computation based on 296 words.
+Number of 2-grams hit = 295  (99.66%)
+Number of 1-grams hit = 1  (0.34%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle146.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.13, Entropy = 2.05 bits
+Computation based on 201 words.
+Number of 2-grams hit = 200  (99.50%)
+Number of 1-grams hit = 1  (0.50%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle147.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.02, Entropy = 2.01 bits
+Computation based on 195 words.
+Number of 2-grams hit = 194  (99.49%)
+Number of 1-grams hit = 1  (0.51%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle148.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.45, Entropy = 2.15 bits
+Computation based on 134 words.
+Number of 2-grams hit = 133  (99.25%)
+Number of 1-grams hit = 1  (0.75%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle149.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.45, Entropy = 1.79 bits
+Computation based on 150 words.
+Number of 2-grams hit = 149  (99.33%)
+Number of 1-grams hit = 1  (0.67%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle150.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.58, Entropy = 1.84 bits
+Computation based on 237 words.
+Number of 2-grams hit = 236  (99.58%)
+Number of 1-grams hit = 1  (0.42%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle151.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.69, Entropy = 1.89 bits
+Computation based on 168 words.
+Number of 2-grams hit = 167  (99.40%)
+Number of 1-grams hit = 1  (0.60%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle152.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.54, Entropy = 1.83 bits
+Computation based on 135 words.
+Number of 2-grams hit = 134  (99.26%)
+Number of 1-grams hit = 1  (0.74%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle153.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.02, Entropy = 1.59 bits
+Computation based on 268 words.
+Number of 2-grams hit = 267  (99.63%)
+Number of 1-grams hit = 1  (0.37%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle154.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.89, Entropy = 1.96 bits
+Computation based on 200 words.
+Number of 2-grams hit = 199  (99.50%)
+Number of 1-grams hit = 1  (0.50%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle155.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.80, Entropy = 1.92 bits
+Computation based on 172 words.
+Number of 2-grams hit = 171  (99.42%)
+Number of 1-grams hit = 1  (0.58%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle156.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.22, Entropy = 2.08 bits
+Computation based on 184 words.
+Number of 2-grams hit = 183  (99.46%)
+Number of 1-grams hit = 1  (0.54%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle157.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.65, Entropy = 1.87 bits
+Computation based on 153 words.
+Number of 2-grams hit = 152  (99.35%)
+Number of 1-grams hit = 1  (0.65%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle158.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.38, Entropy = 1.76 bits
+Computation based on 190 words.
+Number of 2-grams hit = 189  (99.47%)
+Number of 1-grams hit = 1  (0.53%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle159.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.88, Entropy = 1.96 bits
+Computation based on 186 words.
+Number of 2-grams hit = 185  (99.46%)
+Number of 1-grams hit = 1  (0.54%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle160.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.50, Entropy = 1.81 bits
+Computation based on 276 words.
+Number of 2-grams hit = 275  (99.64%)
+Number of 1-grams hit = 1  (0.36%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle161.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.10, Entropy = 2.04 bits
+Computation based on 302 words.
+Number of 2-grams hit = 301  (99.67%)
+Number of 1-grams hit = 1  (0.33%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle162.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.11, Entropy = 2.04 bits
+Computation based on 233 words.
+Number of 2-grams hit = 232  (99.57%)
+Number of 1-grams hit = 1  (0.43%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle163.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.47, Entropy = 1.80 bits
+Computation based on 298 words.
+Number of 2-grams hit = 297  (99.66%)
+Number of 1-grams hit = 1  (0.34%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle164.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.89, Entropy = 1.96 bits
+Computation based on 255 words.
+Number of 2-grams hit = 254  (99.61%)
+Number of 1-grams hit = 1  (0.39%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle165.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.09, Entropy = 1.63 bits
+Computation based on 308 words.
+Number of 2-grams hit = 307  (99.68%)
+Number of 1-grams hit = 1  (0.32%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle166.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.43, Entropy = 1.78 bits
+Computation based on 315 words.
+Number of 2-grams hit = 314  (99.68%)
+Number of 1-grams hit = 1  (0.32%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle167.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.50, Entropy = 1.81 bits
+Computation based on 250 words.
+Number of 2-grams hit = 249  (99.60%)
+Number of 1-grams hit = 1  (0.40%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle168.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.88, Entropy = 1.96 bits
+Computation based on 140 words.
+Number of 2-grams hit = 139  (99.29%)
+Number of 1-grams hit = 1  (0.71%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle169.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.67, Entropy = 1.88 bits
+Computation based on 369 words.
+Number of 2-grams hit = 368  (99.73%)
+Number of 1-grams hit = 1  (0.27%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle170.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.04, Entropy = 2.01 bits
+Computation based on 285 words.
+Number of 2-grams hit = 284  (99.65%)
+Number of 1-grams hit = 1  (0.35%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle171.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.77, Entropy = 1.92 bits
+Computation based on 312 words.
+Number of 2-grams hit = 311  (99.68%)
+Number of 1-grams hit = 1  (0.32%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle172.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.42, Entropy = 1.77 bits
+Computation based on 216 words.
+Number of 2-grams hit = 215  (99.54%)
+Number of 1-grams hit = 1  (0.46%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle173.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.10, Entropy = 2.04 bits
+Computation based on 265 words.
+Number of 2-grams hit = 264  (99.62%)
+Number of 1-grams hit = 1  (0.38%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle174.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.73, Entropy = 1.90 bits
+Computation based on 223 words.
+Number of 2-grams hit = 222  (99.55%)
+Number of 1-grams hit = 1  (0.45%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle175.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.11, Entropy = 1.64 bits
+Computation based on 454 words.
+Number of 2-grams hit = 453  (99.78%)
+Number of 1-grams hit = 1  (0.22%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle176.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.91, Entropy = 1.97 bits
+Computation based on 274 words.
+Number of 2-grams hit = 273  (99.64%)
+Number of 1-grams hit = 1  (0.36%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle177.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.30, Entropy = 2.11 bits
+Computation based on 320 words.
+Number of 2-grams hit = 319  (99.69%)
+Number of 1-grams hit = 1  (0.31%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle178.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.63, Entropy = 1.86 bits
+Computation based on 187 words.
+Number of 2-grams hit = 186  (99.47%)
+Number of 1-grams hit = 1  (0.53%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle179.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.02, Entropy = 2.01 bits
+Computation based on 268 words.
+Number of 2-grams hit = 267  (99.63%)
+Number of 1-grams hit = 1  (0.37%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle180.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.68, Entropy = 2.23 bits
+Computation based on 218 words.
+Number of 2-grams hit = 217  (99.54%)
+Number of 1-grams hit = 1  (0.46%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle181.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.07, Entropy = 2.03 bits
+Computation based on 324 words.
+Number of 2-grams hit = 323  (99.69%)
+Number of 1-grams hit = 1  (0.31%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle182.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.11, Entropy = 2.04 bits
+Computation based on 284 words.
+Number of 2-grams hit = 283  (99.65%)
+Number of 1-grams hit = 1  (0.35%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle183.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.63, Entropy = 1.86 bits
+Computation based on 317 words.
+Number of 2-grams hit = 316  (99.68%)
+Number of 1-grams hit = 1  (0.32%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle184.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.07, Entropy = 2.03 bits
+Computation based on 350 words.
+Number of 2-grams hit = 349  (99.71%)
+Number of 1-grams hit = 1  (0.29%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle185.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.61, Entropy = 1.85 bits
+Computation based on 473 words.
+Number of 2-grams hit = 472  (99.79%)
+Number of 1-grams hit = 1  (0.21%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle186.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.34, Entropy = 2.12 bits
+Computation based on 265 words.
+Number of 2-grams hit = 264  (99.62%)
+Number of 1-grams hit = 1  (0.38%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle187.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.62, Entropy = 1.85 bits
+Computation based on 351 words.
+Number of 2-grams hit = 350  (99.72%)
+Number of 1-grams hit = 1  (0.28%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle188.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.49, Entropy = 1.80 bits
+Computation based on 330 words.
+Number of 2-grams hit = 329  (99.70%)
+Number of 1-grams hit = 1  (0.30%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle189.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.91, Entropy = 1.97 bits
+Computation based on 412 words.
+Number of 2-grams hit = 411  (99.76%)
+Number of 1-grams hit = 1  (0.24%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle190.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.32, Entropy = 1.73 bits
+Computation based on 234 words.
+Number of 2-grams hit = 233  (99.57%)
+Number of 1-grams hit = 1  (0.43%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle191.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.71, Entropy = 1.89 bits
+Computation based on 371 words.
+Number of 2-grams hit = 370  (99.73%)
+Number of 1-grams hit = 1  (0.27%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle192.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.52, Entropy = 2.18 bits
+Computation based on 303 words.
+Number of 2-grams hit = 302  (99.67%)
+Number of 1-grams hit = 1  (0.33%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle193.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.85, Entropy = 1.94 bits
+Computation based on 298 words.
+Number of 2-grams hit = 297  (99.66%)
+Number of 1-grams hit = 1  (0.34%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle194.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.38, Entropy = 1.76 bits
+Computation based on 269 words.
+Number of 2-grams hit = 268  (99.63%)
+Number of 1-grams hit = 1  (0.37%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle195.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.65, Entropy = 1.87 bits
+Computation based on 426 words.
+Number of 2-grams hit = 425  (99.77%)
+Number of 1-grams hit = 1  (0.23%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle196.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.38, Entropy = 1.76 bits
+Computation based on 530 words.
+Number of 2-grams hit = 529  (99.81%)
+Number of 1-grams hit = 1  (0.19%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle197.out
+Will force inclusive back-off from OOVs.
+Perplexity = 3.38, Entropy = 1.76 bits
+Computation based on 398 words.
+Number of 2-grams hit = 397  (99.75%)
+Number of 1-grams hit = 1  (0.25%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle198.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.45, Entropy = 2.15 bits
+Computation based on 335 words.
+Number of 2-grams hit = 334  (99.70%)
+Number of 1-grams hit = 1  (0.30%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : Computing perplexity of the language model with respect
+   to the text ../../data/posDev/posarticle199.out
+Will force inclusive back-off from OOVs.
+Perplexity = 4.03, Entropy = 2.01 bits
+Computation based on 387 words.
+Number of 2-grams hit = 386  (99.74%)
+Number of 1-grams hit = 1  (0.26%)
+0 OOVs (0.00%) and 0 context cues were removed from the calculation.
+evallm : 
