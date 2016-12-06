@@ -32,6 +32,6 @@ def parse_file(parse_indices, textfile):
 	return parsed_vals
 
 FNAME = "4gram/perp_wit_out_sample"
-parsed_vals = parse_file(parse_indices_3gram, FNAME)
-print parsed_vals
+# parsed_vals = parse_file(parse_indices_3gram, FNAME)
+# print parsed_vals
 

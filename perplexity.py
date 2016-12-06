@@ -110,22 +110,47 @@ train_features_perplexity2 = np.array(parse.parse_file(parse.parse_indices_2gram
 train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram_inclusive, "3gram/"+fname))[:,0]
 train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram_inclusive, "4gram/"+fname))[:,0]
 train_features_perplexity5 = np.array(parse.parse_file(parse.parse_indices_5gram_inclusive, "5gram/"+fname))[:,0]
+train_features1 = np.c_[train_features_perplexity1, train_features_perplexity2, train_features_perplexity3, train_features_perplexity4, train_features_perplexity5]
 
-train_w2v = np.loadtxt("Features/google_word2vec_train.txt")
-train_features = np.c_[train_features_perplexity1, train_features_perplexity2, train_features_perplexity3, train_features_perplexity4, train_features_perplexity5]
+fname = "pos_perp_wit_uncinc_out" 
+train_features_perplexity1 = np.array(parse.parse_file(parse.parse_indices_1gram_inclusive, "1gram/"+fname))[:,0]
+train_features_perplexity2 = np.array(parse.parse_file(parse.parse_indices_2gram_inclusive, "2gram/"+fname))[:,0]
+train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram_inclusive, "3gram/"+fname))[:,0]
+train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram_inclusive, "4gram/"+fname))[:,0]
+train_features_perplexity5 = np.array(parse.parse_file(parse.parse_indices_5gram_inclusive, "5gram/"+fname))[:,0]
+train_features2 = np.c_[train_features_perplexity1, train_features_perplexity2, train_features_perplexity3, train_features_perplexity4, train_features_perplexity5]
+train_features = np.c_[train_features1, train_features2]
+
+
+# train_w2v = np.loadtxt("Features/google_word2vec_train.txt")
+# train_features = np.c_[train_features_perplexity1, train_features_perplexity2, train_features_perplexity3, train_features_perplexity4, train_features_perplexity5]
 train_features = scalar.fit_transform(train_features)
 dev_articles = get_articles(DEV)
 dev_labels = get_labels(DEV_LABELS)
 # dev_features = get_perplexity_features(dev_articles)
 # dev_features = np.loadtxt("Features/dev_perplexity_f.txt")
 # dev_features = scalar.transform(dev_features)
+fname = "perp_wit_uncinc_out" 
 dev_features_perplexity1 = np.array(parse.parse_file(parse.parse_indices_1gram, "1gram/dev_"+fname))[:,0]
 dev_features_perplexity2 = np.array(parse.parse_file(parse.parse_indices_2gram, "2gram/dev_"+fname))[:,0]
 dev_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/dev_"+fname))[:,0]
 dev_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/dev_"+fname))[:,0]
 dev_features_perplexity5 = np.array(parse.parse_file(parse.parse_indices_5gram, "5gram/dev_"+fname))[:,0]
-dev_w2v = np.loadtxt("Features/google_word2vec_dev.txt")
-dev_features = np.c_[ dev_features_perplexity1, dev_features_perplexity2, dev_features_perplexity3, dev_features_perplexity4, dev_features_perplexity5]
+# dev_w2v = np.loadtxt("Features/google_word2vec_dev.txt")
+dev_features1 = np.c_[ dev_features_perplexity1, dev_features_perplexity2, dev_features_perplexity3, dev_features_perplexity4, dev_features_perplexity5]
+
+fname = "pos_perp_wit_uncinc_out" 
+dev_features_perplexity1 = np.array(parse.parse_file(parse.parse_indices_1gram, "1gram/dev_"+fname))[:,0]
+dev_features_perplexity2 = np.array(parse.parse_file(parse.parse_indices_2gram, "2gram/dev_"+fname))[:,0]
+dev_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/dev_"+fname))[:,0]
+dev_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/dev_"+fname))[:,0]
+dev_features_perplexity5 = np.array(parse.parse_file(parse.parse_indices_5gram, "5gram/dev_"+fname))[:,0]
+# dev_w2v = np.loadtxt("Features/google_word2vec_dev.txt")
+dev_features2 = np.c_[ dev_features_perplexity1, dev_features_perplexity2, dev_features_perplexity3, dev_features_perplexity4, dev_features_perplexity5]
+dev_features = np.c_[dev_features1,dev_features2]
+
+
+
 dev_features = scalar.transform(dev_features)
 X = train_features
 n1 = 0
