@@ -26,19 +26,19 @@ def soft_metric(y0_prob, y1_prob, dev=0):
 def calculate_classification_error(y_true, y_pred, script=0):
 	hard_metric = sklearn.metrics.accuracy_score(y_true, y_pred)
 	if script:
-		print "Accuracy: " + str(hard_metric)
+		print "Hard Metric: " + str(hard_metric)
 	return hard_metric
 
 def calculate_soft_score(y_true, y0_prob,y1_prob,script=0):
-	log_posterior = np.multiply(y_true, np.log(y1_prob)) + np.multiply(1-y_true, np.log(y0_prob))
-	avg_log_posterior = log_posterior*(1.0/y0_prob.size)
+	log_posterior = np.multiply(y_true, np.log2(y1_prob)) + np.multiply(1-y_true, np.log2(y0_prob))
+	avg_log_posterior = log_posterior.sum()*(1.0/y0_prob.size)
 	if script:
-		print "Avg Log Posterior:" + str(avg_log_posterior)
+		print "Soft Metric:" + str(avg_log_posterior)
 	return avg_log_posterior
 
 def get_probabilities(pred_file):
 	with open(pred_file, "r") as inp:
-		labels = inp.read()
+		labels = inp.read().rstrip("\n")
 	labels = labels.split("\n")
 	y0_prob = []
 	y1_prob = []
@@ -51,15 +51,15 @@ def get_probabilities(pred_file):
 	y0_prob = map(float, y0_prob)
 	y1_prob = map(float, y1_prob)
 	y_pred = map(float, y_pred)
-	return y0_prob, y1_prob, y_pred
+	return np.array(y0_prob), np.array(y1_prob), np.array(y_pred)
 
 if __name__ == "__main__":
 	true_file = sys.argv[1]
 	pred_file = sys.argv[2]
 	y0_prob, y1_prob, y_pred = get_probabilities(pred_file)
-	y_true = np.array(get_labels(true_file))
+	y_true = np.array(utils.get_labels(true_file))
 	calculate_classification_error(y_true, y_pred, 1)
-	calculate_soft_metric(y_true, y0_prob, y1_prob, 1 )
+	calculate_soft_score(y_true, y0_prob, y1_prob, 1)
 
 
 

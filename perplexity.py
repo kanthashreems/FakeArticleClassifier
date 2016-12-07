@@ -10,6 +10,10 @@ from sklearn.svm import SVC
 from sklearn.preprocessing import StandardScaler
 import eval
 import parse
+import degenerateEM
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.ensemble import AdaBoostRegressor
+from sklearn.ensemble import VotingClassifier
 
 
 # def get_entropy(count_list):
@@ -96,86 +100,181 @@ def get_perplexity_features(articles):
 train_articles = get_articles(TRAIN)
 train_labels = get_labels(TRAIN_LABELS)
 # train_features = get_perplexity_features(train_articles)
-# train_features = np.loadtxt("Features/train_perplexity_f.txt")
+train_features_entropy = np.loadtxt("Features/train_perplexity_f.txt")
+dev_features_entropy = np.loadtxt("Features/dev_perplexity_f.txt")
 # np.savetxt("train_perplexity_f.txt", train_features)
 
 # np.savetxt("train_perplexity_f.txt", train_features)
 scalar = StandardScaler()
 fname = "perp_wit_uncinc_out" #best
 
-fname = "perp_wit_uncinc_out" 
+# fname = "perp_lin_out" 
 
-train_features_perplexity1 = np.array(parse.parse_file(parse.parse_indices_1gram_inclusive, "1gram/"+fname))[:,0]
-train_features_perplexity2 = np.array(parse.parse_file(parse.parse_indices_2gram_inclusive, "2gram/"+fname))[:,0]
-train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram_inclusive, "3gram/"+fname))[:,0]
-train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram_inclusive, "4gram/"+fname))[:,0]
-train_features_perplexity5 = np.array(parse.parse_file(parse.parse_indices_5gram_inclusive, "5gram/"+fname))[:,0]
-train_features1 = np.c_[train_features_perplexity1, train_features_perplexity2, train_features_perplexity3, train_features_perplexity4, train_features_perplexity5]
+train_features_perplexity1 = np.array(parse.parse_file(parse.parse_indices_1gram_inclusive, "1gram/"+fname))
+train_features_perplexity2 = np.array(parse.parse_file(parse.parse_indices_2gram_inclusive, "2gram/"+fname))
+train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram_inclusive, "3gram/"+fname))
+train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram_inclusive, "4gram/"+fname))
+train_features_perplexity5 = np.array(parse.parse_file(parse.parse_indices_5gram_inclusive, "5gram/"+fname))
+train= np.c_[train_features_perplexity1, train_features_perplexity2, train_features_perplexity3, train_features_perplexity4, train_features_perplexity5]
+# np.savetxt("Features/train_"+fname, train_features1)
 
-fname = "pos_perp_wit_uncinc_out" 
-train_features_perplexity1 = np.array(parse.parse_file(parse.parse_indices_1gram_inclusive, "1gram/"+fname))[:,0]
-train_features_perplexity2 = np.array(parse.parse_file(parse.parse_indices_2gram_inclusive, "2gram/"+fname))[:,0]
-train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram_inclusive, "3gram/"+fname))[:,0]
-train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram_inclusive, "4gram/"+fname))[:,0]
-train_features_perplexity5 = np.array(parse.parse_file(parse.parse_indices_5gram_inclusive, "5gram/"+fname))[:,0]
-train_features2 = np.c_[train_features_perplexity1, train_features_perplexity2, train_features_perplexity3, train_features_perplexity4, train_features_perplexity5]
-train_features = np.c_[train_features1, train_features2]
+# fname = "pos_perp_lin_out" 
+# # train_features_perplexity1 = np.array(parse.parse_file(parse.parse_indices_1gram_inclusive, "1gram/"+fname))
+# train_features_perplexity2 = np.array(parse.parse_file(parse.parse_indices_2gram, "2gram/"+fname))
+# train_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/"+fname))
+# train_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/"+fname))
+# train_features_perplexity5 = np.array(parse.parse_file(parse.parse_indices_5gram, "5gram/"+fname))
+# train_features2 = np.c_[train_features_perplexity2, train_features_perplexity3, train_features_perplexity4, train_features_perplexity5]
+# train_features = np.c_[train_features1, train_features2]
+
+# np.savetxt("Features/train_"+fname, train_features2)
 
 
-# train_w2v = np.loadtxt("Features/google_word2vec_train.txt")
-# train_features = np.c_[train_features_perplexity1, train_features_perplexity2, train_features_perplexity3, train_features_perplexity4, train_features_perplexity5]
-train_features = scalar.fit_transform(train_features)
+# # train_w2v = np.loadtxt("Features/google_word2vec_train.txt")
+# # train_features = np.c_[train_features_perplexity1, train_features_perplexity2, train_features_perplexity3, train_features_perplexity4, train_features_perplexity5]
+# train_features = scalar.fit_transform(train_features)
 dev_articles = get_articles(DEV)
 dev_labels = get_labels(DEV_LABELS)
-# dev_features = get_perplexity_features(dev_articles)
-# dev_features = np.loadtxt("Features/dev_perplexity_f.txt")
-# dev_features = scalar.transform(dev_features)
-fname = "perp_wit_uncinc_out" 
-dev_features_perplexity1 = np.array(parse.parse_file(parse.parse_indices_1gram, "1gram/dev_"+fname))[:,0]
-dev_features_perplexity2 = np.array(parse.parse_file(parse.parse_indices_2gram, "2gram/dev_"+fname))[:,0]
-dev_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/dev_"+fname))[:,0]
-dev_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/dev_"+fname))[:,0]
-dev_features_perplexity5 = np.array(parse.parse_file(parse.parse_indices_5gram, "5gram/dev_"+fname))[:,0]
-# dev_w2v = np.loadtxt("Features/google_word2vec_dev.txt")
-dev_features1 = np.c_[ dev_features_perplexity1, dev_features_perplexity2, dev_features_perplexity3, dev_features_perplexity4, dev_features_perplexity5]
-
-fname = "pos_perp_wit_uncinc_out" 
-dev_features_perplexity1 = np.array(parse.parse_file(parse.parse_indices_1gram, "1gram/dev_"+fname))[:,0]
-dev_features_perplexity2 = np.array(parse.parse_file(parse.parse_indices_2gram, "2gram/dev_"+fname))[:,0]
-dev_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/dev_"+fname))[:,0]
-dev_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/dev_"+fname))[:,0]
-dev_features_perplexity5 = np.array(parse.parse_file(parse.parse_indices_5gram, "5gram/dev_"+fname))[:,0]
-# dev_w2v = np.loadtxt("Features/google_word2vec_dev.txt")
-dev_features2 = np.c_[ dev_features_perplexity1, dev_features_perplexity2, dev_features_perplexity3, dev_features_perplexity4, dev_features_perplexity5]
-dev_features = np.c_[dev_features1,dev_features2]
+# # dev_features = get_perplexity_features(dev_articles)
+# # dev_features = np.loadtxt("Features/dev_perplexity_f.txt")
+# # dev_features = scalar.transform(dev_features)
+# fname = "perp_lin_out" 
+dev_features_perplexity1 = np.array(parse.parse_file(parse.parse_indices_1gram_inclusive, "1gram/dev_"+fname))
+dev_features_perplexity2 = np.array(parse.parse_file(parse.parse_indices_2gram_inclusive, "2gram/dev_"+fname))
+dev_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram_inclusive, "3gram/dev_"+fname))
+dev_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram_inclusive, "4gram/dev_"+fname))
+dev_features_perplexity5 = np.array(parse.parse_file(parse.parse_indices_5gram_inclusive, "5gram/dev_"+fname))
+# # dev_w2v = np.loadtxt("Features/google_word2vec_dev.txt")
+dev = np.c_[dev_features_perplexity1, dev_features_perplexity2, dev_features_perplexity3, dev_features_perplexity4, dev_features_perplexity5]
+# np.savetxt("Features/dev_"+fname, dev_features1)
 
 
+# fname = "pos_perp_lin_out" 
+# # dev_features_perplexity1 = np.array(parse.parse_file(parse.parse_indices_1gram_inclusive, "1gram/dev_"+fname))
+# dev_features_perplexity2 = np.array(parse.parse_file(parse.parse_indices_2gram, "2gram/dev_"+fname))
+# dev_features_perplexity3 = np.array(parse.parse_file(parse.parse_indices_3gram, "3gram/dev_"+fname))
+# dev_features_perplexity4 = np.array(parse.parse_file(parse.parse_indices_4gram, "4gram/dev_"+fname))
+# dev_features_perplexity5 = np.array(parse.parse_file(parse.parse_indices_5gram, "5gram/dev_"+fname))
+# # dev_w2v = np.loadtxt("Features/google_word2vec_dev.txt")
+# dev_features2 = np.c_[dev_features_perplexity2, dev_features_perplexity3, dev_features_perplexity4, dev_features_perplexity5]
+# dev_features = np.c_[dev_features1,dev_features2]
+# np.savetxt("Features/dev_"+fname, dev_features2)
 
-dev_features = scalar.transform(dev_features)
-X = train_features
-n1 = 0
-n2 = 1
-x_min, x_max = X[:, n1].min() - 1, X[:, n1].max() + 1
-y_min, y_max = X[:, n2].min() - 1, X[:, n2].max() + 1
-h = 0.2
 
-xx, yy = np.meshgrid(np.arange(x_min, x_max, h),np.arange(y_min, y_max, h))
-for g in [0.25,0.3,0.275]:
+# train=None
+# dev = None
+# fname_list = ['perp_lin_out','perp_wit_out','perp_lin_uncinc_out','perp_lin_uncexc_out','perp_wit_uncinc_out','perp_wit_uncexc_out','pos_perp_lin_out','pos_perp_wit_out','pos_perp_lin_uncinc_out','pos_perp_lin_uncexc_out','pos_perp_wit_uncinc_out','pos_perp_wit_uncexc_out']
+# for fname in ['perp_wit_uncinc_out', 'pos_perp_wit_uncinc_out']:
+# 	train_features = np.loadtxt("Features/train_"+fname)
+# 	dev_features = np.loadtxt("Features/dev_"+fname)
+
+# 	if train == None:
+# 		train = np.c_[train_features]
+# 		dev = np.c_[dev_features]
+# 	else:
+# 		train = np.c_[train,train_features]
+# 		dev = np.c_[dev,dev_features]
+
+
+
+train_features = scalar.fit_transform(train)
+
+dev_features = scalar.transform(dev)
+# X = train_features
+# n1 = 0
+# n2 = 1
+# x_min, x_max = X[:, n1].min() - 1, X[:, n1].max() + 1
+# y_min, y_max = X[:, n2].min() - 1, X[:, n2].max() + 1
+# h = 0.2
+
+# xx, yy = np.meshgrid(np.arange(x_min, x_max, h),np.arange(y_min, y_max, h))
+for g in np.arange(0.1,1,0.1):
 	print g
-	# lg = SVC(kernel='linear', gamma = 0.0001, C=0.5)
-	lg = LogisticRegression(C=g)
-	lg.fit(train_features, train_labels)
+	# lg = SVC(kernel='rbf', gamma = 0.0001, C=0.5)
+	print dev_features.shape
+	lg1 = LogisticRegression(C=g)
+	# lg1 = AdaBoostRegressor(base_estimator=LogisticRegression(), n_estimators=g)
+	lg1.fit(train_features, train_labels)
+	print train_features.shape
 
 
 	# np.savetxt("dev_perplexity_f.txt", dev_features)
 
-	y_pred_train = lg.predict(train_features)
-	y_pred = lg.predict(dev_features)
+	y_pred_train = lg1.predict(train_features)
+	y_pred = lg1.predict(dev_features)
+
+	y_pred_train_proba = lg1.predict_proba(train_features)
+	y_pred_train_proba1 = [y[1] for y in y_pred_train_proba]
+	y_pred_train_proba0 = [y[0] for y in y_pred_train_proba]
+
+	y_pred_dev_proba = lg1.predict_proba(dev_features)
+	y_pred_dev_proba1 = [y[1] for y in y_pred_dev_proba]
+	y_pred_dev_proba0 = [y[0] for y in y_pred_dev_proba]
+
+	# lg2 = LogisticRegression(C=1.5)
+	# lg2.fit(train_features_entropy,train_labels)
+
+	# eclf = VotingClassifier(estimators=[('lr', lg1), ('lr', lg2)], voting='soft')
+	# eclf.fit(train_features, train_labels)
+	# y_pred_train = eclf.predict(train_features)
+	# y_pred = eclf.predict(dev_features)
+
+	# y_pred_train_proba = eclf.predict_proba(train_features)
+	# y_pred_train_proba1 = [y[1] for y in y_pred_train_proba]
+	# y_pred_train_proba0 = [y[0] for y in y_pred_train_proba]
+
+	# y_pred_dev_proba = eclf.predict_proba(dev_features)
+	# y_pred_dev_proba1 = [y[1] for y in y_pred_dev_proba]
+	# y_pred_dev_proba0 = [y[0] for y in y_pred_dev_proba]
+
+
+
+	# y_train_entropy = lg2.predict(train_features_entropy)
+	# y_train_entropy_proba = lg2.predict_proba(train_features_entropy)
+	# y_train_entropy_proba1 = [y[1] for y in y_train_entropy_proba]
+	# y_dev_entropy = lg2.predict(dev_features_entropy)
+	# y_dev_entropy_proba = lg2.predict_proba(dev_features_entropy)
+	# y_dev_entropy_proba1 = [y[1] for y in y_dev_entropy_proba]
+
+	# streams = np.array([y_pred_train_proba1, y_train_entropy_proba1]).transpose()
+	# lamda = np.array([1,0])
+	# # lamda = np.array([1.0/3,1.0/3,1.0/3])
+	# # lamda = degenerateEM.degenerateEM(streams, 0.00001)
+	# print lamda
+	# l_old = lamda
+	# l_diag = np.diag(l_old)
+	# # log_likelihood_old = log_likelihood
+
+	# lamda = np.array([1,0])
+	# weighted_models = np.dot(streams, l_diag).sum(axis=1) 
+	
+	# y_pred_train = (weighted_models>0.5).astype(int)
+
+	# streams = np.array([y_pred_dev_proba1, y_dev_entropy_proba1]).transpose()
+	# lamda = np.array([1,0])
+	# weighted_models = np.dot(streams, l_diag).sum(axis=1) 
+
+	
+
+	# y_pred = (weighted_models>0.5).astype(int)
+
 
 	print "Train:"
 	eval.classification_error(y_pred_train, dev=0)
 	print "Dev:"
 	eval.classification_error(y_pred, dev=1)
+
+	print "Train:"
+	eval.soft_metric(np.array(y_pred_train_proba0), np.array(y_pred_train_proba1) , dev=0)
+	print "Dev:"
+	eval.soft_metric(np.array(y_pred_dev_proba0), np.array(y_pred_dev_proba1), dev=1)
+
+	# print "entropy"
+	# print "Train:"
+	# eval.classification_error(y_train_entropy, dev=0)
+	# print "Dev:"
+	# eval.classification_error(y_dev_entropy, dev=1)
+	print "####################"
 
 
 	
@@ -200,7 +299,7 @@ for g in [0.25,0.3,0.275]:
 # 	# plt.yticks(())
 # 	plt.title("Decision boundary C:" + str(g))
 
-	#false pos and false neg
+	# false pos and false neg
 	y_diff = y_pred - np.array(dev_labels)
 	# pdb.set_trace()
 	y_fp_idx = (y_diff == 1)
