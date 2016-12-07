@@ -9,8 +9,8 @@ import eval
 import parse
 import sys
 
-TRAIN = "../Data/trainingSet.dat"
-TRAIN_LABELS = "../Data/trainingSetLabels.dat"
+TRAIN = "trainingSet.dat"
+TRAIN_LABELS = "trainingSetLabels.dat"
 
 train_articles = get_articles(TRAIN)
 train_labels = get_labels(TRAIN_LABELS)
